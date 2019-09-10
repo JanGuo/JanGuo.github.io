@@ -87,7 +87,7 @@
 <meta property="og:site_name" content="JanGuo">
 <meta property="og:description" content="Ubantu安装Docker与使用">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-07-17T11:14:13.839Z">
+<meta property="og:updated_time" content="2019-07-25T14:22:53.288Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ubantu安装Docker与使用">
 <meta name="twitter:description" content="Ubantu安装Docker与使用">
@@ -372,6 +372,7 @@
 <blockquote>
 <p>$ firefox #打开firefox浏览器    #输入  localhost：81  看到nginx欢迎界面表示搭建成功</p>
 </blockquote>
+<h1 id="docker-compose-的安装及使用"><a href="#docker-compose-的安装及使用" class="headerlink" title="docker-compose 的安装及使用"></a>docker-compose 的安装及使用</h1><p><a href="https://www.cnblogs.com/morang/p/9501223.html" target="_blank" rel="noopener">https://www.cnblogs.com/morang/p/9501223.html</a></p>
 <h1 id="docker-run操作"><a href="#docker-run操作" class="headerlink" title="docker run操作"></a>docker run操作</h1><pre><code>docker run -it \
 tomcat \
 bash</code></pre><p>参数:</p>
@@ -523,7 +524,8 @@ services:
       - mysql-data:/var/lib/mysql
 
 volumes:
-  mysql-data:</code></pre>
+  mysql-data:</code></pre><p>安装 Halo<br><a href="https://ryanc.cc/archives/halo-docker" target="_blank" rel="noopener">https://ryanc.cc/archives/halo-docker</a></p>
+
       
     </div>
     
@@ -644,7 +646,7 @@ volumes:
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">24</span>
+                  <span class="site-state-item-count">34</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -655,7 +657,7 @@ volumes:
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-count">18</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -666,7 +668,7 @@ volumes:
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-count">20</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -692,9 +694,9 @@ volumes:
                   </span>
                 
                   <span class="links-of-author-item">
-                    <a href="http://192.168.174.1:8090" target="_blank" title="E-BK">
+                    <a href="http://59.110.215.208" target="_blank" title="JanGuo">
                       
-                        <i class="fa fa-fw fa-@163"></i>E-BK</a>
+                        <i class="fa fa-fw fa-@163"></i>JanGuo</a>
                   </span>
                 
             </div>
@@ -721,7 +723,7 @@ volumes:
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Ubantu安装Docker与使用"><span class="nav-number">1.</span> <span class="nav-text">Ubantu安装Docker与使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Docker基于阿里云的脚本安装（最快安装方法）"><span class="nav-number">1.1.</span> <span class="nav-text">Docker基于阿里云的脚本安装（最快安装方法）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用国内镜像下载"><span class="nav-number">1.2.</span> <span class="nav-text">使用国内镜像下载</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#调优："><span class="nav-number">1.3.</span> <span class="nav-text">调优：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#验证："><span class="nav-number">1.4.</span> <span class="nav-text">验证：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#docker-run操作"><span class="nav-number">2.</span> <span class="nav-text">docker run操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#i"><span class="nav-number">2.0.1.</span> <span class="nav-text">-i</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t"><span class="nav-number">2.0.2.</span> <span class="nav-text">-t</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#d"><span class="nav-number">2.0.3.</span> <span class="nav-text">-d</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#a"><span class="nav-number">2.0.4.</span> <span class="nav-text">-a</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#–rm"><span class="nav-number">2.0.5.</span> <span class="nav-text">–rm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#–name"><span class="nav-number">2.0.6.</span> <span class="nav-text">–name</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#–p-hostport-containerport"><span class="nav-number">2.0.7.</span> <span class="nav-text">–p hostport:containerport</span></a></li></ol></li></ol><li class="nav-item nav-level-1"><a class="nav-link" href="#docker-start"><span class="nav-number">3.</span> <span class="nav-text">docker start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#a-1"><span class="nav-number">3.0.1.</span> <span class="nav-text">-a</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#i-1"><span class="nav-number">3.0.2.</span> <span class="nav-text">-i</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#docker-exec操作"><span class="nav-number">4.</span> <span class="nav-text">docker exec操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#i-t-参数"><span class="nav-number">4.0.1.</span> <span class="nav-text">-i -t 参数</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#eg"><span class="nav-number">4.1.</span> <span class="nav-text">eg:</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Dockerfile"><span class="nav-number">5.</span> <span class="nav-text">Dockerfile</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Dockerfile-指令"><span class="nav-number">6.</span> <span class="nav-text">Dockerfile 指令</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#FROM-指定基础镜像"><span class="nav-number">6.1.</span> <span class="nav-text">FROM 指定基础镜像</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#RUN-执行命令"><span class="nav-number">6.2.</span> <span class="nav-text">RUN 执行命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#构建镜像"><span class="nav-number">6.3.</span> <span class="nav-text">构建镜像</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#编写Dockerfile文件"><span class="nav-number">6.3.1.</span> <span class="nav-text">编写Dockerfile文件</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#数据卷"><span class="nav-number">7.</span> <span class="nav-text">数据卷</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#查看数据卷列表"><span class="nav-number">7.0.1.</span> <span class="nav-text">查看数据卷列表</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#运行容器："><span class="nav-number">7.1.</span> <span class="nav-text">运行容器：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#命令参数："><span class="nav-number">7.1.1.</span> <span class="nav-text">命令参数：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Docker-Compose"><span class="nav-number">8.</span> <span class="nav-text">Docker Compose</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">8.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#卸载"><span class="nav-number">8.2.</span> <span class="nav-text">卸载</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用"><span class="nav-number">8.3.</span> <span class="nav-text">使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Docker-Compose-实战-Tomcat"><span class="nav-number">8.4.</span> <span class="nav-text">Docker Compose 实战 Tomcat</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Docker-Compose-实战-MySQL"><span class="nav-number">8.5.</span> <span class="nav-text">Docker Compose 实战 MySQL</span></a></li></ol></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Ubantu安装Docker与使用"><span class="nav-number">1.</span> <span class="nav-text">Ubantu安装Docker与使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Docker基于阿里云的脚本安装（最快安装方法）"><span class="nav-number">1.1.</span> <span class="nav-text">Docker基于阿里云的脚本安装（最快安装方法）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用国内镜像下载"><span class="nav-number">1.2.</span> <span class="nav-text">使用国内镜像下载</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#调优："><span class="nav-number">1.3.</span> <span class="nav-text">调优：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#验证："><span class="nav-number">1.4.</span> <span class="nav-text">验证：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#docker-compose-的安装及使用"><span class="nav-number">2.</span> <span class="nav-text">docker-compose 的安装及使用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#docker-run操作"><span class="nav-number">3.</span> <span class="nav-text">docker run操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#i"><span class="nav-number">3.0.1.</span> <span class="nav-text">-i</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#t"><span class="nav-number">3.0.2.</span> <span class="nav-text">-t</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#d"><span class="nav-number">3.0.3.</span> <span class="nav-text">-d</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#a"><span class="nav-number">3.0.4.</span> <span class="nav-text">-a</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#–rm"><span class="nav-number">3.0.5.</span> <span class="nav-text">–rm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#–name"><span class="nav-number">3.0.6.</span> <span class="nav-text">–name</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#–p-hostport-containerport"><span class="nav-number">3.0.7.</span> <span class="nav-text">–p hostport:containerport</span></a></li></ol></li></ol><li class="nav-item nav-level-1"><a class="nav-link" href="#docker-start"><span class="nav-number">4.</span> <span class="nav-text">docker start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#a-1"><span class="nav-number">4.0.1.</span> <span class="nav-text">-a</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#i-1"><span class="nav-number">4.0.2.</span> <span class="nav-text">-i</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#docker-exec操作"><span class="nav-number">5.</span> <span class="nav-text">docker exec操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#i-t-参数"><span class="nav-number">5.0.1.</span> <span class="nav-text">-i -t 参数</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#eg"><span class="nav-number">5.1.</span> <span class="nav-text">eg:</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Dockerfile"><span class="nav-number">6.</span> <span class="nav-text">Dockerfile</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Dockerfile-指令"><span class="nav-number">7.</span> <span class="nav-text">Dockerfile 指令</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#FROM-指定基础镜像"><span class="nav-number">7.1.</span> <span class="nav-text">FROM 指定基础镜像</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#RUN-执行命令"><span class="nav-number">7.2.</span> <span class="nav-text">RUN 执行命令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#构建镜像"><span class="nav-number">7.3.</span> <span class="nav-text">构建镜像</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#编写Dockerfile文件"><span class="nav-number">7.3.1.</span> <span class="nav-text">编写Dockerfile文件</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#数据卷"><span class="nav-number">8.</span> <span class="nav-text">数据卷</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#查看数据卷列表"><span class="nav-number">8.0.1.</span> <span class="nav-text">查看数据卷列表</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#运行容器："><span class="nav-number">8.1.</span> <span class="nav-text">运行容器：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#命令参数："><span class="nav-number">8.1.1.</span> <span class="nav-text">命令参数：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Docker-Compose"><span class="nav-number">9.</span> <span class="nav-text">Docker Compose</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">9.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#卸载"><span class="nav-number">9.2.</span> <span class="nav-text">卸载</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用"><span class="nav-number">9.3.</span> <span class="nav-text">使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Docker-Compose-实战-Tomcat"><span class="nav-number">9.4.</span> <span class="nav-text">Docker Compose 实战 Tomcat</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Docker-Compose-实战-MySQL"><span class="nav-number">9.5.</span> <span class="nav-text">Docker Compose 实战 MySQL</span></a></li></ol></li></div>
             
 
           </div>
